@@ -17,8 +17,8 @@ public class NumberGuessing {
 
      if(input==chosenNumber){
      System.out.println("Great Job !");
-   }
-
-
+     }
+     else
+     System.out.print("Try Again!");
     }
 }
