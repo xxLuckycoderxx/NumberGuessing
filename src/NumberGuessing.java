@@ -4,12 +4,19 @@ import static java.lang.Math.random;
 
 public class NumberGuessing {
     public static void main(String[]args){
-
-     Scanner keyboard;
+        
      int input;
      int chosenNumber;
-     chosenNumber= (int)(Math.random()* 100);
+       
+        
+     Scanner keyboard;
      keyboard=new Scanner(System.in);
+    
+        
+     
+        
+     chosenNumber= (int)(Math.random()* 100);
+     
 
 
      System.out.println("Enter a random number !");
