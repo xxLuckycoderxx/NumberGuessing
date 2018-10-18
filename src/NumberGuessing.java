@@ -33,8 +33,8 @@ public class NumberGuessing {
 
 
 
-     Scanner keyboard;
-     keyboard=new Scanner(System.in);
+
+
      boolean mag = true;
      int numb;
      int dose=(int)(Math.random()*100);
